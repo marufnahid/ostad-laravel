@@ -23,3 +23,14 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/posts', [App\Http\Controllers\PostController::class, 'index'])->name('posts.index');
 Route::get('/posts/edit', [App\Http\Controllers\PostController::class, 'index'])->name('posts.edit');
 Route::get('/posts/{post}', [App\Http\Controllers\PostController::class, 'show'])->name('post.show');
+
+
+//
+Route::get('/input', [\App\Http\Controllers\ModuleFourteenController::class, 'input'])->name('input');
+
+
+
+// Define the route
+Route::post('/submit', [\App\Http\Controllers\ModuleFourteenController::class, 'submit'])->name('submit');
+
+

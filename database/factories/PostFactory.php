@@ -25,3 +25,20 @@ class PostFactory extends Factory
         ];
     }
 }
+
+/**
+
+
+--app folder contains controller middleware models policies providers
+ * 
+ */
+
+
+
+
+
+
+
+
+
+
