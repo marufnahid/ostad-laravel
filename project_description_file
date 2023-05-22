@@ -1,0 +1,58 @@
+app - most imp folder
+  console
+    kernel.php- any commands you can make
+  exception
+    handler.php- you can make handler, we can define error as a handler but as a beginner no need.
+
+  Http
+    controllers -default controller.php file has base controller
+    middleware - work as guards, if we can give access to them or not.
+
+    Kernel.php : middleware can use them. every path are declared them.
+
+    Models:
+      User.php: default model
+
+    providers: it will provides all services
+
+bootstrap: laravel application speed up using this.
+  app.php: all apps are them
+
+config: every configuration are there. mail, hash, authentication any you want.
+
+database:
+  migrations: handle database table
+  factories : helps to create fake database
+  seeder: helps to create fake data
+
+public
+  .htaccess: here htaccess file that is used to allow URLs without index. php, be sure to enable the mod_rewrite module.
+  robots.txt - used for search engine optimization.
+  URL: http://127.0.0.1:8000/public/ -after run index.php default.
+
+resources
+  css, js - you can put here.
+  lang - here you can put your language here, because laravel is multi-language. defualt en-english
+  views - blade files here default-welcome.blade.php
+
+routes:
+  web.php - handle website routes
+  api.php - handles api routes
+  channels.php - used for broadcasting
+
+services- handles website services
+
+storage- handles storage like downloadable file or uploaded file like resume etc.
+
+tests
+  Unit- you can write here test cases.
+
+vendor- all kinds of packages are here, payment integration or login with google.
+
+.env - we can setup environment, connection, database.
+
+composer.json - packages details and versions are showed there.
+
+server.php - it will help to execute the app.
+
+
